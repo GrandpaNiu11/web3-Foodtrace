@@ -35,7 +35,7 @@ const RegisterContent = () => {
                 <div className={styles.customers}>
                     <p className={styles.item}>基于FISCO BCOS的食品溯源平台-登记界面</p>
                     <Card theme="solid"
-                          style={{ backgroundColor: '#bab9b9', color: 'white', minWidth: 900 ,minHeight: 600   }}>
+                          style={{ backgroundColor: '#eff1f7', color: 'white', minWidth: 900 ,minHeight: 600   }}>
 
                         <Form
 
