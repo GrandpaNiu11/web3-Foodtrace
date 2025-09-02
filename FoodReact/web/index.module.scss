@@ -1,0 +1,254 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--semi-color-bg-0);
+  width: 1350px;
+  height: 1250px;
+  overflow: hidden;
+  text-align: left;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  white-space: normal;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.nav {
+  flex-shrink: 0;
+  align-self: stretch;
+  height: 60px;
+}
+
+.semiIconsSemiLogo {
+  color: var(--semi-color-text-0);
+  font-size: 36px;
+}
+
+.dIv {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 16px;
+  color: var(--semi-color-text-2);
+  font-size: 20px;
+}
+
+.semiIconsFeishuLogo {
+  color: var(--semi-color-text-2);
+  font-size: 20px;
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: 25px 71px 171px;
+  width: 1298px;
+  height: 786px;
+  row-gap: 40px;
+}
+
+.frame18637 {
+  display: flex;
+  flex-shrink: 0;
+  align-items: flex-start;
+  column-gap: 16px;
+  width: 1026px;
+  color: var(--semi-color-white);
+  font-size: 16px;
+}
+
+.frame1321314182 {
+  display: flex;
+  flex-basis: 0;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+  border: 1px solid rgb(var(--semi-grey-1));
+  border-radius: 8px;
+  background: var(--semi-color-bg-1);
+  padding: 15px 15px 15px 23px;
+  height: 98px;
+  overflow: hidden;
+  row-gap: 16px;
+}
+
+.workitemIcon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  border-radius: 12px;
+  background: rgb(var(--semi-pink-5));
+  padding: 8px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.semiIconsUserCircle {
+  color: var(--semi-color-white);
+  font-size: 16px;
+}
+
+.descriptions {
+  flex-shrink: 0;
+}
+
+.buttonOnlyIconSecond {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  border-radius: 12px;
+  background: rgb(var(--semi-light-blue-5));
+  padding: 8px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.buttonOnlyIconSecond2 {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  border-radius: 12px;
+  background: rgb(var(--semi-green-5));
+  padding: 8px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  align-self: stretch;
+  color: var(--semi-color-text-0);
+  font-size: 20px;
+  row-gap: 16px;
+}
+
+.item {
+  flex-shrink: 0;
+  min-width: 110px;
+}
+
+.table {
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.tD {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 12px;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 0;
+  white-space: normal;
+  color: var(--semi-color-text-0);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rectangle3 {
+  flex-shrink: 0;
+  border-radius: 99px;
+  width: 32px;
+  height: 32px;
+}
+
+.text {
+  flex-shrink: 0;
+  min-width: 90px;
+  vertical-align: baseline;
+}
+
+.text2 {
+  min-width: 76px;
+  vertical-align: baseline;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  white-space: normal;
+  color: var(--semi-color-text-0);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tD2 {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 12px;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  white-space: normal;
+  color: var(--semi-color-text-0);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text3 {
+  flex-shrink: 0;
+  min-width: 95px;
+  vertical-align: baseline;
+}
+
+.text4 {
+  min-width: 60px;
+  vertical-align: baseline;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+  white-space: normal;
+  color: var(--semi-color-text-0);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button {
+  height: 32px;
+}
+.content_all{
+  display: flex;
+  width: 100%;
+  height: 500px;
+
+}
+.content_left{
+  width: 40%;
+  height: 500px;
+
+}
+.content_right{
+  background-image: url('./static/img.png');
+  background-size: cover; /* 确保图片覆盖整个区域，可选 */
+  background-position: center; /* 居中对齐，可选 */
+  background-repeat: no-repeat; /* 防止重复，可选 */
+  margin-left: 20px;
+  width: 40%;
+  height: 500px;
+  background-color: #5e4949;
+}
+.queryLink {
+  color: #0070f3; /* 蓝色 */
+  text-align: center; /* 居中 */
+  cursor: pointer; /* 鼠标悬停变为手型 */
+  margin-top: 20px; /* 与上部元素间距 */
+  display: block; /* 确保居中生效 */
+
+  &:hover {
+    text-decoration: underline; /* 悬停下划线 */
+    color: #005bb5; /* 深蓝色 */
+  }
+}
